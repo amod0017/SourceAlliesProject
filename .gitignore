@@ -44,4 +44,20 @@ $RECYCLE.BIN/
 .AppleDesktop
 Network Trash Folder
 Temporary Items
+.metadata/
 .apdisk
+*.lock
+*.log
+*.gen
+*.zip
+*.classpath
+*.prefs
+*.project
+*.gitignore
+
+Median/src/Solution.java
+Median/src/Test.java
+.recommenders
+
+.idea
+*.iml
