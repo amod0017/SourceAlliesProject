@@ -7,16 +7,16 @@ import java.util.List;
 /**
  * This class maintains a list of most frequenct word inserted at any given
  * instance
- * 
+ *
  * @author amod0
  *
  */
 public class TrieWrapper {
-	private static final int MAX = 3;
+	private static final int MAX = 100;
 	private final Trie root;
 	private final List<MostFrequentWordsWithFreq> mostFreqWords;
 
-	TrieWrapper() {
+	public TrieWrapper() {
 		root = new Trie();
 		mostFreqWords = new ArrayList<>();
 	}
